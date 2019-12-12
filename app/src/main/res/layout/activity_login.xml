@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.tech.smal.turkaf.LoginActivity">
+
+    <EditText
+        android:id="@+id/text_email"
+        android:textColor="#06bf91"
+        android:textColorHint="#06bf91"
+        android:background="#fff"
+        android:drawableEnd="@drawable/ic_mail_outline_24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Adresse e-mail"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/text_password"
+        android:textColor="#06bf91"
+        android:textColorHint="#06bf91"
+        android:background="#fff"
+        android:drawableEnd="@drawable/ic_lock_outline_24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_marginBottom="32dp"
+        android:hint="Mot de passe"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:background="#06bf91"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="Se connecter" />
+
+    <com.google.android.gms.common.SignInButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btn_goto_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:gravity="center"
+        android:text="Pas de compte?"
+        android:textColor="#fff" />
+</LinearLayout>

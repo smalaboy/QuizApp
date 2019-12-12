@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tech.smal.turkaf.HomeScreenActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Culture Générale"
+        android:gravity="center"
+        android:paddingTop="32dp"
+        android:paddingBottom="32dp"
+        android:textSize="48sp"
+        android:layout_marginBottom="24dp"
+        />
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jouer"
+        android:textSize="20sp"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        />
+    <Button
+        android:id="@+id/btn_factory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Usine"
+        android:textSize="20sp"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        />
+
+    <Button
+        android:id="@+id/btn_profile"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mon profil"
+        android:textSize="20sp"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        />
+
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quitter"
+        android:padding="16dp"
+        android:textSize="20sp"
+        android:layout_marginBottom="24dp"
+        />
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Déconnexion"
+        android:padding="16dp"
+        android:textSize="20sp"
+        android:layout_marginBottom="24dp"
+        />
+
+    <Button
+        android:id="@+id/btn_push_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Push data"
+        android:padding="16dp"
+        android:textSize="20sp"
+        android:layout_marginBottom="24dp"
+        />
+
+
+</LinearLayout>
